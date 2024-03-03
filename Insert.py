@@ -2,6 +2,7 @@ import requests
 import json
 import redis
 
+#insertion
 
 url = "https://restcountries.com/v3.1/all"
 querystring = {"format": "json"}

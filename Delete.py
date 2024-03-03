@@ -2,6 +2,7 @@ import requests
 import json
 import redis
 
+#Deletion
 
 url = "https://restcountries.com/v3.1/all"
 querystring = {"format": "json", "contains": "C%23", "idRange": "0-150", "blacklistFlags": "nsfw,racist"}
